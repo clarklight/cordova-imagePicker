@@ -28,8 +28,8 @@ ImagePicker.prototype.getPictures = function(success, fail, options) {
 	
 	var params = {
 		maximumImagesCount: options.maximumImagesCount ? options.maximumImagesCount : 15,
-		width: options.width ? options.width : 600,
-		height: options.height ? options.height : 830,
+		width: options.width ? options.width : 1000,
+		height: options.height ? options.height : 1330,
 		quality: options.quality ? options.quality : 100
 	};
 
